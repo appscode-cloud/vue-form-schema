@@ -1,6 +1,6 @@
 {
   "name": "@appscode/vue-openapi-form",
-  "version": "0.1.0",
+  "version": "1.2.0",
   "main": "dist/vue-openapi-form.ssr.js",
   "browser": "dist/vue-openapi-form.esm.js",
   "module": "dist/vue-openapi-form.esm.js",
