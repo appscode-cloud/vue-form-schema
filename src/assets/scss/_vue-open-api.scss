@@ -229,7 +229,7 @@
 
         &.show-label {
           font-size: 12px;
-          color: $black-40;
+          color: $gray-40;
           top: -9px;
           font-weight: 500;
           background-color: $white-100;
@@ -283,7 +283,7 @@
           font-size: 12px;
           top: -9px;
           font-weight: 500;
-          color: $black-40;
+          color: $gray-40;
 
           &.is-required {
             &:after {
@@ -408,7 +408,7 @@
         left: 10px;
         padding: 0 5px;
         font-size: 13px;
-        color: $black-40;
+        color: $gray-40;
 
         &:after {
           position: absolute;
@@ -464,7 +464,7 @@
 
     .ac-dropdown-content {
       position: absolute;
-      background-color: $primary-90;
+      background-color: $color-border;
       width: 100%;
       height: auto;
       box-shadow: 0px 4px 16px rgba(132, 147, 168, 0.6);

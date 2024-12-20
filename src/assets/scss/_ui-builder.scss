@@ -92,7 +92,7 @@
     top: 10px;
     width: 1px;
     height: calc(100% - 20px);
-    border: 1px dashed $primary-90;
+    border: 1px dashed $color-border;
     z-index: -1;
   }
 
@@ -103,7 +103,7 @@
     bottom: 6px;
     width: 12px;
     height: 12px;
-    background-color: $primary-90;
+    background-color: $color-border;
     border-radius: 50%;
     z-index: -1;
   }
@@ -126,7 +126,7 @@
         display: inline-block;
         text-align: center;
         font-size: 10px;
-        border: 1px solid $primary-90;
+        border: 1px solid $color-border;
         border-radius: 50%;
         margin-right: 10px;
         cursor: pointer;
@@ -155,7 +155,7 @@
 //     min-width: 630px;
 
 //     .thead {
-//       background-color: $primary-90;
+//       background-color: $color-border;
 
 //       .tr {
 //         .th {
@@ -184,7 +184,7 @@
 
 //     .tbody {
 //       .tr {
-//         border-bottom: 1px solid $primary-90;
+//         border-bottom: 1px solid $color-border;
 //       }
 //     }
 //   }
@@ -375,7 +375,7 @@
     cursor: pointer;
     border: none;
     color: $primary;
-    background-color: $primary-90;
+    background-color: $color-border;
     transition: 0.3s ease-in-out;
     &:hover {
       background-color: $primary-80;
@@ -428,7 +428,7 @@ span.is-error {
 .circle-list-shape {
   width: 6px;
   height: 6px;
-  background-color: $black-40;
+  background-color: $gray-40;
   display: flex;
   border-radius: 50%;
 }
